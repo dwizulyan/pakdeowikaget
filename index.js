@@ -4,7 +4,7 @@ const auido = document.querySelector("[data-audio-kaget]");
 let counter = document.querySelector("[data-count]");
 counter.innerHTML = `Pakde Owi Sudah Kaget ${localStorage.clickcount} kali`;
 buttonKaget.addEventListener("click", function () {
-  img.src = "assets/images/pakde_kaget.png";
+  img.src = "assets/images/pakde_kaget.PNG";
   auido.play();
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount) + 1;
