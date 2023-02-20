@@ -13,6 +13,6 @@ buttonKaget.addEventListener("click", function () {
   }
   counter.innerHTML = `Pakde Owi Sudah Kaget ${localStorage.clickcount} kali`;
   setTimeout(function () {
-    img.src = "./assets/images/pakde_normal.png";
+    img.src = "./assets/images/pakde_normal.PNG";
   }, 500);
 });
